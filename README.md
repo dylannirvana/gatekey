@@ -1,7 +1,7 @@
-Roadmap for GATE KEY MUSIC
-I have started reverse engineering GKM project from files received from client. First step was to analyze what I have: The application that I received did NOT work, beyond a very basic level. It has a fairly unorthodox file structure. And there was little in the way of comments, nor project map, and the readme said as much. The coding style seems inappropriate for Meteor.js
+GKM Prototype Roadmap
+Reverse engineering project from files received from client. First step was to analyze what I have: The application that I received did NOT work, beyond a very basic level. It has a fairly unorthodox file structure. And there was little in the way of comments, nor project map, and the readme said as much. The coding style seems inappropriate for Meteor.js
 
-Second step, which is seen here, is to build out a new scaffold using the industry standard Iron-Meteor and migrate the working modules over to the new application manually. This will not only help me to understand what the preceding developers were trying to achieve, but should offer clear benefits.
+Second step, which is seen here, is to build out a new scaffold using Iron-Meteor and migrate the working modules over to the new application manually. This will not only help me to understand what the preceding developers were trying to achieve, but should offer clear benefits.
 -Standard structures offer fewer surprises
 -Easier for other developers to understand
 -Testable, more DRY and better performance
