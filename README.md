@@ -1,20 +1,27 @@
 ###GKM Prototype Roadmap
 Reverse engineering project from files received from client. First step was to analyze what I have: The application that I received did NOT work, beyond a very basic level. It has a fairly unorthodox file structure. And there was little in the way of comments, nor project map, and the readme said as much. The coding style seems inappropriate for Meteor.js
 
-Second step, which is seen here, is to build out a new scaffold using Iron-Meteor and migrate the working modules over to the new application manually. This will not only help me to understand what the preceding developers were trying to achieve, but should offer clear benefits.
+Next of course, is to implement the changes the client wants to see. This should not mask the underlying problems with the application.
+
+Third step, which is seen here, is to build out a new scaffold using Iron-Meteor and migrate the working modules over to the new application manually. This will not only help me to understand what the preceding developers were trying to achieve, but should offer clear benefits.
+
 Standard structures offer fewer surprises.
-Easier for other developers to understand.
-Testable, more DRY and better performance. 
 
-Third, windows will be full-page, mobile-first, responsive and scrollable. That way, we have a decent UI to drop everything into.
+Easier for other developers to understand. 
 
-Fourth, ROUTING corresponds to UI's "pages" in a Single Page Application. These may be constructed dynamically according to parameters (requests, user permissions, etc.). Because they are being assembled on-the-fly, it makes sense that routes reflect VIEWS of the MVC pattern and not the MODEL, as the previous developer seems to have preferred. Here is a first pass.
+Testable, more DRY and better performance.
 
-BLOG is central meeting place.
-CALENDAR of events.
-PROFILES.
-MUSIC PLAYER.
+Single Page Applications should be full-page, mobile-first, responsive and scrollable. ROUTING should correspond to "pages" in the UI. These may be constructed dynamically according to parameters (requests, user permissions, etc.). Because they are being assembled on-the-fly, it makes sense that routes reflect VIEWS of the MVC pattern and not the MODEL, as the previous developer seems to have preferred. Here is a first pass.
 
-The fifth stage would be to get the sub-pub right, oAuth, outlining user permissions, admin.
 
-There are some areas such as access to the client machine's camera that will be discontinued because of security risk and other obvious reasons.
+BLOG is central meeting place or main?
+
+CALENDAR of events should belong to the main
+
+PROFILES have photo, posts and video collections
+
+MUSIC PLAYER is so central to the application that even though it is in musicians profiles, it should be featured more prominently in the main
+
+Hopefully the previous developers got the sub-pub right, oAuth, outlining user permissions, admin.
+
+There are some areas such as access to the client machine's camera that will be discontinued because of security risk and other obvious reasons, until the app is stable.
