@@ -1,23 +1,23 @@
 /*****************************************************************************/
-/* Blog: Event Handlers */
+/* Header: Event Handlers */
 /*****************************************************************************/
-Template.Blog.events({
+Template.Header.events({
 });
 
 /*****************************************************************************/
-/* Blog: Helpers */
+/* Header: Helpers */
 /*****************************************************************************/
-Template.Blog.helpers({
+Template.Header.helpers({
 });
 
 /*****************************************************************************/
-/* Blog: Lifecycle Hooks */
+/* Header: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Blog.onCreated(function () {
+Template.Header.onCreated(function () {
 });
 
-Template.Blog.onRendered(function () {
+Template.Header.onRendered(function () {
 });
 
-Template.Blog.onDestroyed(function () {
+Template.Header.onDestroyed(function () {
 });

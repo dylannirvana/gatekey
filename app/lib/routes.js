@@ -11,12 +11,6 @@ Router.route('/', {
   where: 'client'
 });
 
-Router.route('calendar', {
-  name: 'calendar',
-  controller: 'CalendarController',
-  where: 'client'
-});
-
 Router.route('playlist', {
   name: 'playlist',
   controller: 'PlaylistController',
@@ -29,8 +23,20 @@ Router.route('profiles', {
   where: 'client'
 });
 
-Router.route('blog', {
-  name: 'blog',
-  controller: 'BlogController',
+Router.route('hotblog', {
+  name: 'hotblog',
+  controller: 'HotblogController',
+  where: 'client'
+});
+
+Router.route('chitchat', {
+  name: 'chitchat',
+  controller: 'ChitchatController',
+  where: 'client'
+});
+
+Router.route('countdown', {
+  name: 'countdown',
+  controller: 'CountdownController',
   where: 'client'
 });

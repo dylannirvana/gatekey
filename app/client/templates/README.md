@@ -20,3 +20,10 @@ Abstract the layouts to be applied to templates. DRY and in one place.
 
 CONTROLLERS
 Each Template may have its own controller and ROUTE.
+
+### Notes on Twitter Bootstrap and Iron Scaffolding
+1. Migrating existing functionality to Iron Scaffold: Making structure more understandable,
+sustainable and extensible.
+2. Using Twitter Bootstrap to prototype the UI and to suggest that any deviation
+from it, as a standard of reference that serves the purpose of User Affordance
+should be justified. There should be good reason to deviate from an established benchmark.

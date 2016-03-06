@@ -1,23 +1,23 @@
 /*****************************************************************************/
-/* Calendar: Event Handlers */
+/* Chitchat: Event Handlers */
 /*****************************************************************************/
-Template.Calendar.events({
+Template.Chitchat.events({
 });
 
 /*****************************************************************************/
-/* Calendar: Helpers */
+/* Chitchat: Helpers */
 /*****************************************************************************/
-Template.Calendar.helpers({
+Template.Chitchat.helpers({
 });
 
 /*****************************************************************************/
-/* Calendar: Lifecycle Hooks */
+/* Chitchat: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Calendar.onCreated(function () {
+Template.Chitchat.onCreated(function () {
 });
 
-Template.Calendar.onRendered(function () {
+Template.Chitchat.onRendered(function () {
 });
 
-Template.Calendar.onDestroyed(function () {
+Template.Chitchat.onDestroyed(function () {
 });

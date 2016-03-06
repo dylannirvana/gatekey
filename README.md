@@ -1,3 +1,13 @@
+###Notes on Twitter Bootstrap and Iron Scaffolding
+1. Migrating existing functionality to Iron Scaffold: Making structure more understandable,
+sustainable and extensible.
+2. Using Twitter Bootstrap to prototype the UI and to suggest that any deviation
+from it, as a standard of reference that serves the purpose of User Affordance
+should be justified. There should be good reason to deviate from an established benchmark.
+
+###Deployment to staging server
+TBA. I will provide the URL here.
+
 ###GKM Prototype Roadmap
 Reverse engineering project from files received from client. First step was to analyze what I have: The application that I received did NOT work, beyond a very basic level. It has a fairly unorthodox file structure. And there was little in the way of comments, nor project map, and the readme said as much. The coding style seems inappropriate for Meteor.js
 
@@ -7,7 +17,7 @@ Third step, which is seen here, is to build out a new scaffold using Iron-Meteor
 
 Standard structures offer fewer surprises.
 
-Easier for other developers to understand. 
+Easier for other developers to understand.
 
 Testable, more DRY and better performance.
 
