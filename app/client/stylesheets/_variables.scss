@@ -8,6 +8,7 @@
 
 // @include border-box-sizing; //uses border box sizing like the old IE
 
+// Layout
 $susy: (
   columns: 12,
   container: 60em,
@@ -20,8 +21,8 @@ $small: 650px;
 $medium: 960px;
 $wide: 1200px;
 
-
-//Add Color Palette
+// The color palatte should come from the mood and style boards and the projects Pinterest
+// Color Palette
 $blue       : #063642;
 $green      : #45B29D;
 $yellow     : #EFC94C;
@@ -40,7 +41,7 @@ $navHover           : $yellow;
 $navBrandBg         : $red;
 $headersubbg        : $dark;
 
-//Font variables
+//Font Variables
 $fontfamily       : 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $thin     : 200;

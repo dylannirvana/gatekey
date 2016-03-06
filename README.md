@@ -1,9 +1,21 @@
-###Notes on Twitter Bootstrap and Iron Scaffolding
+###Notes on Iron Scaffolding and Twitter Bootstrap
 1. Migrating existing functionality to Iron Scaffold: Making structure more understandable,
 sustainable and extensible.
 2. Using Twitter Bootstrap to prototype the UI and to suggest that any deviation
 from it, as a standard of reference that serves the purpose of User Affordance
 should be justified. There should be good reason to deviate from an established benchmark.
+
+###Notes on Responsive SPA functionality
+Single Page Applications, which are the high standard, typically employ
+1. Full Page design. Each "page" or scene occupies the full screen and adjusts to changes in screen size. This is essential for mobile-first development.
+2. Animated Scrolling is required.
+
+###Notes on Refactoring old code to modern format
+So, I have created the new Iron scaffold. Next, I am making sure it has the requisite characteristic of a top tier web property: Vertical Single Page Application, proper page routing, scroll navigation, and also probably the most important aspect, that it is a real-time application. (Otherwise, why do it in Meteor? Just use some old hat).
+
+Right now, I am trying to clean up and get all the old functionality to work in the new scaffold. Coffee... beer, repeat.
+
+My goal is to put everything into an Object Oriented, MVC Model View Controller pattern, making the UI very easy to change without screwing everything else up. This client has a lot of ideas and it is important to work in an Agile, not a waterfall workflow. Capiche?
 
 ###Deployment to staging server
 TBA. I will provide the URL here.
