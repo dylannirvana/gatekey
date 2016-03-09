@@ -42,7 +42,8 @@ $navBrandBg         : $red;
 $headersubbg        : $dark;
 
 //Font Variables
-$fontfamily       : 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// $fontfamily       : 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$fontfamily       : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $thin     : 200;
 $normal   : 400;
@@ -50,5 +51,5 @@ $bold     : 600;
 $heavy    : 800;
 
 $headFont   : $thin 1.5em/1.5em $fontfamily;
-$mainFont   : $thin 1em/1.5em $fontfamily;
-$headColor  : lighten($blue, 20);
+$mainFont   : $normal 1.2em/1.5em $fontfamily;
+$headColor  : lighten($red, 20);

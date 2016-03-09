@@ -4,15 +4,28 @@
 .main {
 }
 body {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 0 20px;
+  font: $mainFont;
+  background: $backgroundColor;
+  color: $typeDefault;
 }
 
-.scene {
-  position: relative;
-  padding: 20px 0;
+h1, h2, h3 {
+  color: $headColor;    // This sass variable IS working
+}
+// #{headings()} {      // This syntax is NOT working
+//  font: $headFont;
+//  // color: $headColor;
+//  color: red;
+//  font-weight: $bold;
+// }
+
+strong {
+  font-weight: $bold;
+}
+
+p {
+  font-weight: $thin;
+  padding-bottom: 10px;
 }
 
 .fullheight {

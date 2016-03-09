@@ -1,17 +1,8 @@
-@mixin backImage(
-  $image,
-  $grDir: to bottom,
-  $opStart: 0,
-  $opEnd: 0,
-  $bgPos: center center
-  ) {
-  background: linear-gradient(
-    $grDir,
-    rgba(0,0,0, $opStart),
-    rgba(0,0,0, $opEnd)
-  ),url($image);
+// WARNING: So far, NONE of these mixins are showing up.
+
+
+@mixin backImage($image) {
   background-repeat: no-repeat;
-  background-position: $bgPos;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,3 +19,19 @@
     clear: both;
   } //after
 } //clearfix
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin large-text {
+  font: {
+    family: Arial;
+    size: 20px;
+    weight: bold;
+  }
+  color: #ff0000;
+}

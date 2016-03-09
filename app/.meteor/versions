@@ -1,3 +1,4 @@
+andreioprisan:breakpoint-sass@1.0.0_1
 autopublish@1.0.4
 autoupdate@1.2.4
 babel-compiler@5.8.24_1
@@ -23,8 +24,8 @@ ecmascript-runtime@0.2.6
 ejson@1.0.7
 es5-shim@4.1.14
 fastclick@1.0.7
-fourseven:scss@3.4.1
-francocatena:compass@0.6.0
+fourseven:scss@1.2.3
+francocatena:compass@0.5.1
 geojson-utils@1.0.4
 hot-code-push@1.0.0
 html-tools@1.0.5
@@ -44,7 +45,7 @@ jquery@1.11.4
 launch-screen@1.0.4
 livedata@1.0.15
 logging@1.0.8
-meta:susy@2.3.3
+meta:susy@2.0.2
 meteor@1.1.10
 meteor-base@1.0.1
 minifiers@1.1.7
